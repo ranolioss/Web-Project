@@ -1,0 +1,71 @@
+body{
+    background-color: rgb(224, 204, 204);
+}
+a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.nav {
+    text-align: center;
+    background-color: rgb(87, 100, 100);
+    width: 1110px;
+    height: 30px; 
+    margin-top: -21px;
+    box-shadow: 1px 1px 2px 1px rgb(2, 2, 2);
+    margin-left: -55px;
+}
+.nav ul li {
+    display: inline;
+    padding: 0 15px;
+}
+.nav ul li a {
+    color: rgb(0, 0, 0);
+    transition: color .2s ease-in-out ;/*change color text after 2s*/
+}
+.nav ul li a:hover {
+    color: #857fc0;;
+}
+.top-menu {
+    padding: 5px;
+}
+.header {
+    background-color: rgb(15, 14, 14);
+    background-color: rgb(224, 204, 204);
+    background-image: url("16.jpg"), url("16.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1000px;
+    height: 400px;
+    box-shadow: 4px 4px 6px 4px  rgb(41, 33, 33);
+    margin: auto;
+}
+#perspolisp::first-letter{
+    color: rgb(0, 0, 0);
+    font-size: 200px;
+    text-shadow: 3px 3px #b41f1f;; 
+}
+#perspolisp{
+    max-width: 650px;
+    padding: 10px;
+    margin: left;
+    box-shadow: 4px 4px 6px 4px rgb(60, 63, 56);
+    margin-top: 10px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat';
+    font-size: 20px; 
+    font-weight: bold;
+    float: left;
+    margin-left: -1px;  
+} 
+
+ #perspolispic{
+   width: 600px;
+   height: 500px;
+   float: left;
+   margin-right: 20px;
+   padding: 13px; 
+}  
+.underline{
+    color: blue;
+    font-size: 15px;
+
+}
